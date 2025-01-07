@@ -1,0 +1,38 @@
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .editor {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  
+  .editor textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: Courier;
+    font-size: 14px;
+    
+  }
+  
+  .editor * {
+    display: inline-block;
+    
+  }
+  
+  .preview {
+    text-align: left;
+    margin-left: 20px;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+  }
