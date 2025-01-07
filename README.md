@@ -35,6 +35,25 @@ Launches the test runner.
 ### `npm run build`
 Builds the app for production.
 
+### `npm run deploy`
+Deploys the app to GitHub Pages. The live version will be available at [https://minha12.github.io/markdown-previewer/](https://minha12.github.io/markdown-previewer/)
+
+## Deployment
+
+To deploy to GitHub Pages:
+
+1. Ensure your package.json has the correct homepage URL:
+```json
+"homepage": "https://minha12.github.io/markdown-previewer"
+```
+
+2. Run the deploy command:
+```bash
+npm run deploy
+```
+
+3. Your app will be deployed and accessible at https://minha12.github.io/markdown-previewer/
+
 ## Dependencies
 
 - React
